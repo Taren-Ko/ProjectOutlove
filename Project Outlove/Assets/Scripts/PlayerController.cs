@@ -5,11 +5,10 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour {
 	[HideInInspector] public bool facingRight = true;
     [HideInInspector] public bool jump = false;
+
     public float moveForce = 365f;
     public float maxSpeed = 5f;
     public float jumpForce = 1000f;
-    public Transform groundCheck;
-
 
     private bool grounded = false;
     private Rigidbody2D rb2d;
@@ -24,8 +23,6 @@ public class PlayerController : MonoBehaviour {
     // Update is called once per frame
     void Update()
     {
-        grounded = Physics2D.Linecast(transform.position, groundCheck.position, 1 << LayerMask.NameToLayer("Ground"));
-
         if (Input.GetButtonDown("Jump") && grounded)
         {
             jump = true;
@@ -52,9 +49,17 @@ public class PlayerController : MonoBehaviour {
         {
             rb2d.AddForce(new Vector2(0f, jumpForce));
             jump = false;
+            grounded = false;
         }
     }
 
+
+    void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.gameObject.CompareTag("Ground")){
+            grounded = true;
+        }
+    }
 
     void Flip()
     {
