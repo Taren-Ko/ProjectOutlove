@@ -47,7 +47,7 @@ public class PlayerController : MonoBehaviour {
 
         if (jump)
         {
-            rb2d.AddForce(new Vector2(0f, jumpForce));
+            rb2d.AddForce(new Vector2(rb2d.velocity.x, jumpForce));
             jump = false;
             grounded = false;
         }
