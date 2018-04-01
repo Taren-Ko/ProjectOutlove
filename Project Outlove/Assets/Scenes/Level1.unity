@@ -161,6 +161,15 @@ Prefab:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 50111746534959216, guid: a0847f5c9072c4f8cb8f5fd46f53f394,
+        type: 2}
+      propertyPath: m_GravityScale
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1237470442071358, guid: a0847f5c9072c4f8cb8f5fd46f53f394, type: 2}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a0847f5c9072c4f8cb8f5fd46f53f394, type: 2}
   m_IsPrefabParent: 0
@@ -523,6 +532,23 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 652a1679f6f754aaf89235dfce40041f, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &1412398962 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1327699642410278, guid: 58663ab36f5014ee790c252830a7ec98,
+    type: 2}
+  m_PrefabInternal: {fileID: 1541649934}
+--- !u!114 &1412398963
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1412398962}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a0788ca3c3e27a41b1e82c4acf6bd70, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneToLoad: Scenes/MainMenu
 --- !u!1 &1466899558 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 1417107123921096, guid: bedce6a046126456387dcee04be05d02,
