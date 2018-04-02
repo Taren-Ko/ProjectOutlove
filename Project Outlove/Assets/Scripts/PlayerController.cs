@@ -13,11 +13,14 @@ public class PlayerController : MonoBehaviour {
     private bool grounded = false;
     private Rigidbody2D rb2d;
 
+	private Animator animator;
 
     // Use this for initialization
     void Start()
     {
         rb2d = GetComponent<Rigidbody2D>();
+
+		animator = this.GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -27,6 +30,15 @@ public class PlayerController : MonoBehaviour {
         {
             jump = true;
         }
+
+		if (grounded) 
+		{
+			animator.SetInteger ("AnimationState", 0);
+		} 
+		else if (!grounded) 
+		{
+			animator.SetInteger ("AnimationState", 1);
+		}
     }
 
     void FixedUpdate()

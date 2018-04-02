@@ -165,6 +165,23 @@ GameObject:
   m_PrefabParentObject: {fileID: 1237470442071358, guid: a0847f5c9072c4f8cb8f5fd46f53f394,
     type: 2}
   m_PrefabInternal: {fileID: 127084407}
+--- !u!95 &62907676
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 62907670}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 1bf1d2095d7737f41b46bda11fc8ae7c, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
 --- !u!1001 &99711488
 Prefab:
   m_ObjectHideFlags: 0
@@ -216,11 +233,11 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4607219165640010, guid: a0847f5c9072c4f8cb8f5fd46f53f394, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -26.6
+      value: -27.3
       objectReference: {fileID: 0}
     - target: {fileID: 4607219165640010, guid: a0847f5c9072c4f8cb8f5fd46f53f394, type: 2}
       propertyPath: m_LocalPosition.y
-      value: -31.5
+      value: -29.5
       objectReference: {fileID: 0}
     - target: {fileID: 4607219165640010, guid: a0847f5c9072c4f8cb8f5fd46f53f394, type: 2}
       propertyPath: m_LocalPosition.z
@@ -261,16 +278,26 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4607219165640010, guid: a0847f5c9072c4f8cb8f5fd46f53f394, type: 2}
       propertyPath: m_LocalScale.x
-      value: 0.75
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4607219165640010, guid: a0847f5c9072c4f8cb8f5fd46f53f394, type: 2}
       propertyPath: m_LocalScale.y
-      value: 0.75
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 114378515089568536, guid: a0847f5c9072c4f8cb8f5fd46f53f394,
         type: 2}
       propertyPath: maxSpeed
       value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 212362255792202596, guid: a0847f5c9072c4f8cb8f5fd46f53f394,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: b4edc8ab715d6c34d8c7e2032070fd7c,
+        type: 3}
+    - target: {fileID: 4607219165640010, guid: a0847f5c9072c4f8cb8f5fd46f53f394, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a0847f5c9072c4f8cb8f5fd46f53f394, type: 2}
