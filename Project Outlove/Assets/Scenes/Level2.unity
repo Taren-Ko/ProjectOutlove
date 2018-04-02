@@ -253,7 +253,7 @@ Prefab:
     - target: {fileID: 50111746534959216, guid: a0847f5c9072c4f8cb8f5fd46f53f394,
         type: 2}
       propertyPath: m_GravityScale
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1237470442071358, guid: a0847f5c9072c4f8cb8f5fd46f53f394, type: 2}
       propertyPath: m_TagString
@@ -270,7 +270,7 @@ Prefab:
     - target: {fileID: 114378515089568536, guid: a0847f5c9072c4f8cb8f5fd46f53f394,
         type: 2}
       propertyPath: maxSpeed
-      value: 10
+      value: 20
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a0847f5c9072c4f8cb8f5fd46f53f394, type: 2}
@@ -1215,9 +1215,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b20a8299fe9e38e4c8851c10de905b0b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lever: {fileID: 2124098696}
-  directionSpeed: 9
-  distance: 20
 --- !u!1 &1502122304
 GameObject:
   m_ObjectHideFlags: 0
