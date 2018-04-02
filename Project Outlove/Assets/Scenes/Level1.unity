@@ -195,15 +195,15 @@ Prefab:
         type: 3}
     - target: {fileID: 4607219165640010, guid: a0847f5c9072c4f8cb8f5fd46f53f394, type: 2}
       propertyPath: m_LocalScale.x
-      value: 1
+      value: 1.2
       objectReference: {fileID: 0}
     - target: {fileID: 4607219165640010, guid: a0847f5c9072c4f8cb8f5fd46f53f394, type: 2}
       propertyPath: m_LocalScale.y
-      value: 1
+      value: 1.2
       objectReference: {fileID: 0}
     - target: {fileID: 4607219165640010, guid: a0847f5c9072c4f8cb8f5fd46f53f394, type: 2}
       propertyPath: m_LocalScale.z
-      value: 1
+      value: 1.2
       objectReference: {fileID: 0}
     - target: {fileID: 61562442060145466, guid: a0847f5c9072c4f8cb8f5fd46f53f394,
         type: 2}
