@@ -10,6 +10,10 @@ public class PlayerController : MonoBehaviour {
     public float maxSpeed = 5f;
     public float jumpForce = 1000f;
 
+    public AudioClip clip;
+
+    private AudioSource source;
+
     private bool grounded = false;
     private Rigidbody2D rb2d;
 
@@ -22,6 +26,12 @@ public class PlayerController : MonoBehaviour {
         rb2d = GetComponent<Rigidbody2D>();
 
 		animator = this.GetComponent<Animator>();
+    }
+
+    void Awake(){
+
+        source = GetComponent<AudioSource>();
+
     }
 
     // Update is called once per frame
@@ -60,6 +70,8 @@ public class PlayerController : MonoBehaviour {
             rb2d.AddForce(new Vector2(rb2d.velocity.x, jumpForce));
             jump = false;
             grounded = false;
+            source.PlayOneShot(clip,1);
+            
         }
     }
 
