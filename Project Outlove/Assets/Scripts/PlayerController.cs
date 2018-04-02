@@ -13,11 +13,14 @@ public class PlayerController : MonoBehaviour {
     private bool grounded = false;
     private Rigidbody2D rb2d;
 
+	private Animator animator;
+
 
     // Use this for initialization
     void Start()
     {
         rb2d = GetComponent<Rigidbody2D>();
+		animator = this.GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -27,6 +30,22 @@ public class PlayerController : MonoBehaviour {
         {
             jump = true;
         }
+
+		//animation updates
+		if (grounded == true)
+		{
+			animator.SetInteger("AnimationState", 0);
+		}
+
+		else if (Input.GetKeyDown (KeyCode.Space))
+		{
+			animator.SetInteger("AnimationState", 1);
+		}
+
+		else if (grounded == false)
+		{
+			animator.SetInteger("AnimationState", 2);
+		}
     }
 
     void FixedUpdate()
@@ -68,4 +87,6 @@ public class PlayerController : MonoBehaviour {
         theScale.x *= -1;
         transform.localScale = theScale;
     }
+
+
 }
