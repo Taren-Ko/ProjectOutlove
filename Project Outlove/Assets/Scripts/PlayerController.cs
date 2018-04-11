@@ -17,6 +17,8 @@ public class PlayerController : MonoBehaviour {
     private bool grounded = false;
     private Rigidbody2D rb2d;
 
+    public GameObject player;
+
 
     // Use this for initialization
     void Start()
@@ -36,6 +38,9 @@ public class PlayerController : MonoBehaviour {
         if (Input.GetButtonDown("Jump") && grounded)
         {
             jump = true;
+        }
+        if (Input.GetKeyDown(KeyCode.X)){
+            Swap();
         }
     }
 
@@ -79,5 +84,10 @@ public class PlayerController : MonoBehaviour {
         Vector3 theScale = transform.localScale;
         theScale.x *= -1;
         transform.localScale = theScale;
+    }
+
+    void Swap(){
+        GameObject C2 = (GameObject) Instantiate(player, transform.position, Quaternion.identity);
+        Destroy(gameObject);
     }
 }
