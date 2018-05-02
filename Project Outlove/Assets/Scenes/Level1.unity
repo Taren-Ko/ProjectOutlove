@@ -997,7 +997,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a0788ca3c3e27a41b1e82c4acf6bd70, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneToLoad: Scenes/Level2
+  sceneToLoad: Scenes/Conversation2
 --- !u!1 &1466899558 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 1417107123921096, guid: bedce6a046126456387dcee04be05d02,
