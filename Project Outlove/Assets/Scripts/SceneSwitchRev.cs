@@ -4,8 +4,8 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 
 
-public class SceneSwitch : MonoBehaviour{
-    public string sceneToLoad;
+public class SceneSwitchRev : MonoBehaviour{
+  public string sceneToLoad;
 	public bool finished = false;
 void OnTriggerEnter2D (Collider2D collision)
   {
