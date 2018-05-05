@@ -69,6 +69,7 @@
      <Compile Include="Assets\Scripts\Jump.cs" />
      <Compile Include="Assets\Scripts\LeverSprite.cs" />
      <Compile Include="Assets\Scripts\LoadSceneOnClick.cs" />
+     <Compile Include="Assets\Scripts\MovingPlatformGoal.cs" />
      <Compile Include="Assets\Scripts\MovingPlatformVertical.cs" />
      <Compile Include="Assets\Scripts\MPHorizontal.cs" />
      <Compile Include="Assets\Scripts\PanelManager.cs" />
@@ -77,6 +78,7 @@
      <Compile Include="Assets\Scripts\ResizePanel.cs" />
      <Compile Include="Assets\Scripts\Rotator.cs" />
      <Compile Include="Assets\Scripts\SceneSwitch.cs" />
+     <Compile Include="Assets\Scripts\SceneSwitchRev.cs" />
      <Compile Include="Assets\Scripts\ScrollDetailTexture.cs" />
      <Compile Include="Assets\Scripts\ShowSliderValue.cs" />
      <Compile Include="Assets\Scripts\SimpleMovement.cs" />
@@ -85,6 +87,7 @@
      <Compile Include="Assets\Scripts\TiltWindow.cs" />
      <Compile Include="Assets\Scripts\Walk.cs" />
      <Compile Include="Assets\Scripts\WallClimb.cs" />
+     <Compile Include="Assets\Sprite Animation\FrogController.cs" />
      <None Include="Assets\Fonts\Jupiter\LICENSE.txt" />
      <None Include="Assets\Textures and Sprites\SF UI\Background\LICENSE.txt" />
  <Reference Include="UnityEngine.UI">

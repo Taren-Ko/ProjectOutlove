@@ -4,11 +4,18 @@ using System.Collections;
 public class Jump : AbstractBehavior {
 
 	public float jumpSpeed = 200f;
+    private AudioSource source;
+    public AudioClip clip;
 
 	// Use this for initialization
 	void Start () {
-	
+        source = GetComponent<AudioSource>();
 	}
+
+    // void Awake()
+    // {
+
+    // }
 	
 	// Update is called once per frame
 	void Update () {
@@ -27,7 +34,7 @@ public class Jump : AbstractBehavior {
 		var vel = body2d.velocity;
 
 		body2d.velocity = new Vector2 (vel.x, jumpSpeed);
+        source.PlayOneShot(clip, 1);
 		
-		Debug.Log("Hello");
 	}
 }
