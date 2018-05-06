@@ -81,6 +81,7 @@
      <Compile Include="Assets\Scripts\SceneSwitchRev.cs" />
      <Compile Include="Assets\Scripts\ScrollDetailTexture.cs" />
      <Compile Include="Assets\Scripts\ShowSliderValue.cs" />
+     <Compile Include="Assets\Scripts\SignAlert.cs" />
      <Compile Include="Assets\Scripts\SimpleMovement.cs" />
      <Compile Include="Assets\Scripts\StickToWall.cs" />
      <Compile Include="Assets\Scripts\SwitchPlatformVertical.cs" />
