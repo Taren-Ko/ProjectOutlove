@@ -7520,12 +7520,12 @@ Prefab:
     - target: {fileID: 114588550632672636, guid: 6cf60c76570cdfa4a890e632752f60c6,
         type: 2}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 114003828834799882, guid: 6cf60c76570cdfa4a890e632752f60c6,
         type: 2}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4899439242267214, guid: 6cf60c76570cdfa4a890e632752f60c6, type: 2}
       propertyPath: m_LocalPosition.y
@@ -7555,6 +7555,11 @@ Prefab:
         type: 2}
       propertyPath: m_BackGroundColor.b
       value: 0.93103456
+      objectReference: {fileID: 0}
+    - target: {fileID: 114003828834799882, guid: 6cf60c76570cdfa4a890e632752f60c6,
+        type: 2}
+      propertyPath: slideVelocity
+      value: -20
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 6cf60c76570cdfa4a890e632752f60c6, type: 2}
