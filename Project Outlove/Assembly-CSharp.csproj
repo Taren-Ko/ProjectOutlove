@@ -51,7 +51,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\AbstractBehavior.cs" />
      <Compile Include="Assets\Scripts\ActiveStateToggler.cs" />
      <Compile Include="Assets\Scripts\ApplicationManager.cs" />
      <Compile Include="Assets\Scripts\CameraController.cs" />
@@ -71,7 +70,10 @@
      <Compile Include="Assets\Scripts\InputState.cs" />
      <Compile Include="Assets\Scripts\Jump.cs" />
      <Compile Include="Assets\Scripts\LeverSprite.cs" />
+     <Compile Include="Assets\Scripts\LoadMenu.cs" />
+     <Compile Include="Assets\Scripts\LoadParents.cs" />
      <Compile Include="Assets\Scripts\LoadSceneOnClick.cs" />
+     <Compile Include="Assets\Scripts\MovementActions.cs" />
      <Compile Include="Assets\Scripts\MovingPlatformGoal.cs" />
      <Compile Include="Assets\Scripts\MovingPlatformVertical.cs" />
      <Compile Include="Assets\Scripts\MPHorizontal.cs" />
@@ -85,7 +87,6 @@
      <Compile Include="Assets\Scripts\ScrollDetailTexture.cs" />
      <Compile Include="Assets\Scripts\ShowSliderValue.cs" />
      <Compile Include="Assets\Scripts\SignAlert.cs" />
-     <Compile Include="Assets\Scripts\SimpleMovement.cs" />
      <Compile Include="Assets\Scripts\StickToWall.cs" />
      <Compile Include="Assets\Scripts\SwitchPlatformVertical.cs" />
      <Compile Include="Assets\Scripts\TiltWindow.cs" />

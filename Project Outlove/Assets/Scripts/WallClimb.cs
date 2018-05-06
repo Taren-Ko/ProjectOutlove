@@ -3,7 +3,7 @@ using System.Collections;
 
 public class WallClimb : StickToWall {
 
-	public float slideVelocity = -5;
+	public float slideVelocity = 100;
 
 	// Update is called once per frame
 	override protected void Update () {
@@ -16,11 +16,5 @@ public class WallClimb : StickToWall {
 		}
 	}
 
-	override protected void OnStick(){
-		body2d.velocity = Vector2.zero;
-	}
 
-	override protected void OffWall(){
-		// do nothing
-	}
 }

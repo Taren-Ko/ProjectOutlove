@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class FaceDirection : AbstractBehavior {
+public class FaceDirection : MovementActions {
 
 	// Use this for initialization
 	void Start () {
