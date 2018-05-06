@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class GroundPound : AbstractBehavior {
+public class GroundPound : MovementActions {
 
 	public float poundSpeed = -300f;
 	public bool pounding = false;

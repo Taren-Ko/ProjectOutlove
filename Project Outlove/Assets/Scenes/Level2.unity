@@ -2673,7 +2673,7 @@ Prefab:
     - target: {fileID: 114003828834799882, guid: 6cf60c76570cdfa4a890e632752f60c6,
         type: 2}
       propertyPath: slideVelocity
-      value: 300
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 114869568459070326, guid: 6cf60c76570cdfa4a890e632752f60c6,
         type: 2}
@@ -13195,6 +13195,7 @@ MonoBehaviour:
   inputButtons: 03000000
   dissableScripts: []
   poundSpeed: -300
+  pounding: 0
 --- !u!1001 &2026227207
 Prefab:
   m_ObjectHideFlags: 0
