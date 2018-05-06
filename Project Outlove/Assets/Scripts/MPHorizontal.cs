@@ -8,6 +8,8 @@ public class MPHorizontal : MonoBehaviour {
 	public float directionSpeed = 9.0f;
 	float origX;
 	public float distance = 10.0f;
+	private GameObject target = null;
+	private Vector3 offset;
 
 	// Use this for initialization
 	void Start () {
@@ -27,4 +29,21 @@ public class MPHorizontal : MonoBehaviour {
 		}
 		transform.Translate(useSpeed*Time.deltaTime,0,0);
 	}
+	
+	void OnTriggerStay2D(Collider2D collision){
+		target = collision.gameObject;
+		offset = target.transform.position - transform.position;
+	}
+
+	void OnTriggerExit2D(Collider2D collision){
+		target = null;
+	}
+
+	void LateUpdate(){
+		if (target != null) {
+			target.transform.position = transform.position + offset;
+		}
+	}
+	
+	
 }
