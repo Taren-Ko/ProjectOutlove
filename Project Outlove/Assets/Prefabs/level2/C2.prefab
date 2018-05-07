@@ -39,6 +39,8 @@ GameObject:
   - component: {fileID: 61393774923479302}
   - component: {fileID: 114868176615177854}
   - component: {fileID: 82745218143406056}
+  - component: {fileID: 95795619660730898}
+  - component: {fileID: 114266924123163710}
   m_Layer: 0
   m_Name: C2
   m_TagString: Player
@@ -274,6 +276,34 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 0
+--- !u!95 &95795619660730898
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1186914946153188}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 0b83e310b3158b54d9c96666bacee004, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+--- !u!114 &114266924123163710
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1186914946153188}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 117e899e0c3f4a845aef31dec2d2386a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &114832099863156442
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -297,12 +327,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 619803fa7c8f61b4d8dfb618dc70f4f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  facingRight: 1
-  jump: 0
-  moveForce: 365
-  maxSpeed: 20
-  jumpForce: 1000
-  clip: {fileID: 8300000, guid: acf4729eb9de845df9f9e781c06bf94b, type: 3}
   player: {fileID: 1733799221411010, guid: 6cf60c76570cdfa4a890e632752f60c6, type: 2}
 --- !u!124 &124921939272722234
 Behaviour:
