@@ -7556,6 +7556,12 @@ Prefab:
       propertyPath: m_BackGroundColor.b
       value: 0.93103456
       objectReference: {fileID: 0}
+    - target: {fileID: 212022376445159712, guid: 6cf60c76570cdfa4a890e632752f60c6,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: b4edc8ab715d6c34d8c7e2032070fd7c,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 6cf60c76570cdfa4a890e632752f60c6, type: 2}
   m_IsPrefabParent: 0
@@ -22543,7 +22549,7 @@ Animator:
   m_GameObject: {fileID: 2112666251}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: bdb9997367367ae469318e7c7be09a6a, type: 2}
+  m_Controller: {fileID: 9100000, guid: 3f3aee4048f8ac44b928a2de397c1118, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
