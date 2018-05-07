@@ -26,6 +26,7 @@ public class Parallax : MonoBehaviour
     }
 
     private void Update(){
+        cameraTransform = Camera.main.transform;
         float deltaX = cameraTransform.position.x - lastCameraX;
         transform.position += Vector3.right * (deltaX * parallaxSpeed);
         lastCameraX = cameraTransform.position.x;
