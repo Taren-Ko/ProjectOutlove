@@ -3,24 +3,20 @@ using System.Collections;
 
 public class StickToWall : MovementActions {
 
-	public bool onWallDetected;
-
-	protected float defaultGravityScale;
-	protected float defaultDrag;
-
+	public bool WallTrigger;
 	void Start () {
 		
 	}
 	protected virtual void Update () {
 
 		if (collisionState.onWall) {
-			if(!onWallDetected){
-				onWallDetected = true;
+			if(!WallTrigger){
+				WallTrigger = true;
 			}
 
 		} else {
-			if(onWallDetected){
-				onWallDetected = false;
+			if(WallTrigger){
+				WallTrigger = false;
 			}
 
 		}

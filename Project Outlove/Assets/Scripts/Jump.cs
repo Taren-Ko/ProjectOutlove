@@ -24,16 +24,16 @@ public class Jump : MovementActions {
 
 		if (collisionState.standing) {
 			if(canJump && holdTime < .1f){
-				OnJump ();
+				JumpStart ();
 			}
 		}
 
 	}
 
-	protected virtual void OnJump(){
-		var vel = body2d.velocity;
+	protected virtual void JumpStart(){
+		var velocity = body2d.velocity;
 
-		body2d.velocity = new Vector2 (vel.x, jumpSpeed);
+		body2d.velocity = new Vector2 (velocity.x, jumpSpeed);
         source.PlayOneShot(clip, 1);
 		
 	}

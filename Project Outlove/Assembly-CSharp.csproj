@@ -58,9 +58,6 @@
      <Compile Include="Assets\Scripts\ChangeColor.cs" />
      <Compile Include="Assets\Scripts\CollisionState.cs" />
      <Compile Include="Assets\Scripts\DestructiblePlatform.cs" />
-     <Compile Include="Assets\Scripts\DragMe.cs" />
-     <Compile Include="Assets\Scripts\DragPanel.cs" />
-     <Compile Include="Assets\Scripts\DropMe.cs" />
      <Compile Include="Assets\Scripts\EnemyPatrol.cs" />
      <Compile Include="Assets\Scripts\FaceDirection.cs" />
      <Compile Include="Assets\Scripts\GroundPound.cs" />
@@ -81,6 +78,7 @@
      <Compile Include="Assets\Scripts\PanelManager.cs" />
      <Compile Include="Assets\Scripts\Parallax.cs" />
      <Compile Include="Assets\Scripts\PlayerController.cs" />
+     <Compile Include="Assets\Scripts\projectile.cs" />
      <Compile Include="Assets\Scripts\QuitOnClick.cs" />
      <Compile Include="Assets\Scripts\ResizePanel.cs" />
      <Compile Include="Assets\Scripts\Rotator.cs" />
@@ -91,7 +89,6 @@
      <Compile Include="Assets\Scripts\SignAlert.cs" />
      <Compile Include="Assets\Scripts\StickToWall.cs" />
      <Compile Include="Assets\Scripts\SwitchPlatformVertical.cs" />
-     <Compile Include="Assets\Scripts\TiltWindow.cs" />
      <Compile Include="Assets\Scripts\Walk.cs" />
      <Compile Include="Assets\Scripts\WallClimb.cs" />
      <Compile Include="Assets\Sprite Animation\FrogController.cs" />
