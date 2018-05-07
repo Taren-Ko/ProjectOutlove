@@ -3293,7 +3293,7 @@ Prefab:
     - target: {fileID: 114310403348166502, guid: 6cf60c76570cdfa4a890e632752f60c6,
         type: 2}
       propertyPath: bottomPosition.y
-      value: -1
+      value: -5
       objectReference: {fileID: 0}
     - target: {fileID: 114310403348166502, guid: 6cf60c76570cdfa4a890e632752f60c6,
         type: 2}
