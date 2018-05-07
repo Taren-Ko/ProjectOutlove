@@ -6,10 +6,11 @@ public class Walk : AbstractBehavior {
 	public float speed = 50f;
 	public float runMultiplier = 2f;
 	public bool running;
+	private Animator animator;
 
 	// Use this for initialization
 	void Start () {
-	
+		animator = this.GetComponent<Animator> ();
 	}
 	
 	// Update is called once per frame
@@ -21,6 +22,7 @@ public class Walk : AbstractBehavior {
 		var left = inputState.GetButtonValue (inputButtons [1]);
 		var run = inputState.GetButtonValue (inputButtons [2]);
 
+
 		if (right || left) {
 
 			var tmpSpeed = speed;
@@ -28,7 +30,9 @@ public class Walk : AbstractBehavior {
 			if(run && runMultiplier > 0){
 				tmpSpeed *= runMultiplier;
 				running = true;
+
 			}
+				
 
 			var velX = tmpSpeed * (float)inputState.direction;
 

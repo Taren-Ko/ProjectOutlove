@@ -18,11 +18,12 @@ public class PlayerController : MonoBehaviour {
     // private Rigidbody2D rb2d;
 
     public GameObject player;
-
+	//private Animator animator;
 
     // Use this for initialization
     void Start()
     {
+		//animator = this.GetComponent<Animator> ();
         // rb2d = GetComponent<Rigidbody2D>();
     }
 
@@ -35,10 +36,21 @@ public class PlayerController : MonoBehaviour {
     // Update is called once per frame
     void Update()
     {
-        // if (Input.GetButtonDown("Jump") && grounded)
+        //if (Input.GetButtonDown("Jump") && grounded)
         // {
         //     jump = true;
         // }
+
+		//if (Input.GetKey("c")) {
+
+		//	animator.SetInteger("MainAnimationState", 1);
+		//}
+		
+		//else {
+				
+		//	animator.SetInteger("MainAnimationState", 0);
+		//}
+				
         if (Input.GetKeyDown(KeyCode.Z)){
             Swap();
         }

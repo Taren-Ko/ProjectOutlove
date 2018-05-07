@@ -1,9 +1,21 @@
 fileFormatVersion: 2
 guid: 32c05f61e7c844919b92343b1fa7cfe5
-timeCreated: 1525545517
+timeCreated: 1525637937
 licenseType: Free
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: frogspritesheet_0
+    21300002: frogspritesheet_1
+    21300004: frogspritesheet_2
+    21300006: frogspritesheet_3
+    21300008: frogspritesheet_4
+    21300010: frogspritesheet_5
+    21300012: frogspritesheet_6
+    21300014: frogspritesheet_7
+    21300016: frogspritesheet_8
+    21300018: frogspritesheet_9
+    21300020: frogspritesheet_10
+    21300022: frogspritesheet_11
   externalObjects: {}
   serializedVersion: 4
   mipmaps:
@@ -40,7 +52,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -66,9 +78,187 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: frogspritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1137
+        width: 489
+        height: 363
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: frogspritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 1140
+        width: 450
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: frogspritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 1144
+        width: 429
+        height: 356
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: frogspritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 1492
+        y: 1147
+        width: 453
+        height: 353
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: frogspritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 642
+        width: 569
+        height: 401
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: frogspritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 646
+        width: 397
+        height: 397
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: frogspritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 1022
+        y: 639
+        width: 422
+        height: 404
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: frogspritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 1496
+        y: 642
+        width: 466
+        height: 397
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: frogspritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 144
+        width: 453
+        height: 380
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: frogspritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 573
+        y: 137
+        width: 400
+        height: 390
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: frogspritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 1001
+        y: 141
+        width: 453
+        height: 386
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: frogspritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 1520
+        y: 141
+        width: 446
+        height: 383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
     outline: []
     physicsShape: []
   spritePackingTag: 

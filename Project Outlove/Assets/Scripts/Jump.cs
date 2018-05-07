@@ -6,10 +6,12 @@ public class Jump : AbstractBehavior {
 	public float jumpSpeed = 200f;
     private AudioSource source;
     public AudioClip clip;
+	//private Animator animator;
 
 	// Use this for initialization
 	void Start () {
         source = GetComponent<AudioSource>();
+		//animator = this.GetComponent<Animator> ();
 	}
 
     // void Awake()
@@ -26,6 +28,7 @@ public class Jump : AbstractBehavior {
 			if(canJump && holdTime < .1f){
 				OnJump ();
 			}
+			//animator.SetInteger("MainAnimationState", 1);	
 		}
 
 	}
