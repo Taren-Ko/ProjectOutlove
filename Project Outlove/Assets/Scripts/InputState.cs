@@ -21,8 +21,29 @@ public class InputState : MonoBehaviour {
 	private Rigidbody2D body2d;
 	private Dictionary<Buttons, ButtonState> buttonStates = new Dictionary<Buttons, ButtonState>();
 
+	private Animator animator;
+
+	void Start()
+	{
+		animator = this.GetComponent<Animator>();
+	}
+
 	void Awake(){
 		body2d = GetComponent<Rigidbody2D> ();
+	}
+
+	void Update()
+	{
+
+		if (Input.GetKey("c"))
+		{
+			animator.SetInteger("MainAnimationState", 1);
+		}
+		else 
+		{
+			animator.SetInteger("MainAnimationState", 0);
+		}
+		
 	}
 
 	void FixedUpdate(){

@@ -10562,6 +10562,23 @@ MonoBehaviour:
   dissableScripts: []
   jumpSpeed: 125
   clip: {fileID: 8300000, guid: acf4729eb9de845df9f9e781c06bf94b, type: 3}
+--- !u!95 &1196942073
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1196942064}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: f4b0b8d54c3a3ed45a60d46a8bc7735a, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
 --- !u!4 &1196942086 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4019995114276046, guid: 6cf60c76570cdfa4a890e632752f60c6,
