@@ -82,6 +82,8 @@ GameObject:
   - component: {fileID: 114003828834799882}
   - component: {fileID: 114588550632672636}
   - component: {fileID: 114869568459070326}
+  - component: {fileID: 95395408998359624}
+  - component: {fileID: 114788002315530082}
   m_Layer: 0
   m_Name: C1
   m_TagString: Player
@@ -95,7 +97,7 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1733799221411010}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -26.6, y: -31.5, z: 0}
   m_LocalScale: {x: 0.75, y: 0.75, z: 1}
   m_Children:
@@ -327,13 +329,30 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 0
+--- !u!95 &95395408998359624
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1733799221411010}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: f4b0b8d54c3a3ed45a60d46a8bc7735a, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
 --- !u!114 &114003828834799882
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1733799221411010}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ea8e29fd4ac50f14fb1b3e98582dec3e, type: 3}
   m_Name: 
@@ -341,7 +360,7 @@ MonoBehaviour:
   inputButtons: 
   dissableScripts: []
   onWallDetected: 0
-  slideVelocity: -5
+  slideVelocity: 100
 --- !u!114 &114310403348166502
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -383,10 +402,6 @@ MonoBehaviour:
     offValue: 0
     button: 1
     condition: 1
-  - axisName: Fire1
-    offValue: 0
-    button: 4
-    condition: 0
   - axisName: Jump
     offValue: 0
     button: 5
@@ -412,7 +427,7 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1733799221411010}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c80ba050ef0484e49902710726251e42, type: 3}
   m_Name: 
@@ -433,6 +448,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   inputButtons: 0000000001000000
   dissableScripts: []
+--- !u!114 &114788002315530082
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1733799221411010}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10f382e9f78351046b3ef2929fbfff5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  inputButtons: 03000000
+  dissableScripts: []
+  poundSpeed: -300
+  pounding: 0
 --- !u!114 &114869568459070326
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -446,7 +476,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   inputButtons: 05000000
   dissableScripts: []
-  jumpSpeed: 125
+  jumpSpeed: 155
   clip: {fileID: 0}
 --- !u!114 &114904991435488318
 MonoBehaviour:
@@ -454,12 +484,12 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1733799221411010}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 619803fa7c8f61b4d8dfb618dc70f4f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 1186914946153188, guid: fd473fc9f4755fc449911fd7d1998c07, type: 2}
+  player: {fileID: 1780644475993420, guid: fd473fc9f4755fc449911fd7d1998c07, type: 2}
 --- !u!114 &114938489536559970
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -473,7 +503,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   inputButtons: 010000000000000004000000
   dissableScripts: []
-  speed: 25
+  speed: 50
   runMultiplier: 2
   running: 0
 --- !u!114 &114959761063109592
