@@ -20,10 +20,10 @@ public class YetiAnimation : MonoBehaviour {
 		{
 			animator.SetInteger("YetiAnimationState", 1);
 		}
-		//else if (Input.GetKey())
-		//{
-		//	animator.SetInteger("YetiAnimationState", 2);
-		//}
+		else if (Input.GetKey("v"))
+		{
+			animator.SetInteger("YetiAnimationState", 2);
+		}
 		else {
 				animator.SetInteger("YetiAnimationState", 0);	
 		}

@@ -35,13 +35,16 @@ public class InputState : MonoBehaviour {
 	void Update()
 	{
 
-		if (Input.GetKey("c"))
-		{
-			animator.SetInteger("MainAnimationState", 1);
+		if (Input.GetKey ("c")) {
+			animator.SetInteger ("FrogAnimationState", 1);
+		} 
+
+		else if (Input.GetKey ("up")) {
+			animator.SetInteger ("FrogAnimationState", 2);
 		}
 		else 
 		{
-			animator.SetInteger("MainAnimationState", 0);
+			animator.SetInteger("FrogAnimationState", 0);
 		}
 		
 	}
