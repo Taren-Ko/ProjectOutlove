@@ -39,7 +39,7 @@ public class PlayerController : MonoBehaviour {
         // {
         //     jump = true;
         // }
-        if (Input.GetKeyDown(KeyCode.Z)){
+        if (Input.GetKeyDown(KeyCode.X)){
             Swap();
         }
     }

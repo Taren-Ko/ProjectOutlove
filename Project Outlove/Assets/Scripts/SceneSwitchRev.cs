@@ -11,6 +11,8 @@ void OnTriggerEnter2D (Collider2D collision)
   {
 		if (collision.gameObject.tag == "Player") {
 			finished = true;
+			//collision.gameObject.GetComponent<SpriteRenderer> ().sprite = null;
+			collision.gameObject.GetComponent<SpriteRenderer> ().enabled = false;
 
 		}
   }

@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class Jump : AbstractBehavior {
+public class Jump : MovementActions {
 
 	public float jumpSpeed = 200f;
     private AudioSource source;

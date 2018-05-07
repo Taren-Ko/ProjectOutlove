@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class Walk : AbstractBehavior {
+public class Walk : MovementActions {
 
 	public float speed = 50f;
 	public float runMultiplier = 2f;

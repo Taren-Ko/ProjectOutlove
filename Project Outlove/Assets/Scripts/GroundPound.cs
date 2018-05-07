@@ -1,9 +1,11 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class GroundPound : AbstractBehavior {
+public class GroundPound : MovementActions {
 
 	public float poundSpeed = -300f;
+	public bool pounding = false;
+
 
 	// Use this for initialization
 	void Start () {
@@ -16,15 +18,18 @@ public class GroundPound : AbstractBehavior {
 		var holdTime = inputState.GetButtonHoldTime (inputButtons [0]);
 
 		if (collisionState.standing == false) {
-			if(canPound && holdTime < .1f){
+			if (canPound && holdTime < .1f) {
 				OnPound ();
 			}
+		} else { pounding = false;
 		}
 
 	}
 
 	protected virtual void OnPound(){
 		var vel = body2d.velocity;
+		pounding = true;
+
 
 		body2d.velocity = new Vector2 (vel.x, poundSpeed);
 		

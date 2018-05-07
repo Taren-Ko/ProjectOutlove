@@ -20,9 +20,18 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Level2.unity
     guid: 0abc7f320f98c412bada1e0bc6826de4
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Level2 nohelp.unity
     guid: 0be7668e7382a46548f5ae3f8f1b3145
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Conversation3.unity
     guid: a73c9b007c5a346798e6d4673394d9a0
+  - enabled: 1
+    path: Assets/Scenes/Level2nohelp.unity
+    guid: 072ee8920f9b9f544bbec4e0acfaee47
+  - enabled: 1
+    path: Assets/Scenes/BirthdayPlanet.unity
+    guid: ea571389e7d294d8aa82bc763d3e7cdd
+  - enabled: 1
+    path: Assets/Scenes/BirthdayPlanetnoFriends.unity
+    guid: c7ee882da6133984b877d5ef5d08f7e5

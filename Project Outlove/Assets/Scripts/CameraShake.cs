@@ -5,35 +5,43 @@ using UnityEngine;
 public class CameraShake : MonoBehaviour {
 
 	public Camera mainCamera;
+	public GroundPound player;
+	private Vector3 camPos;
 
 	float shakeAmount = 0;
 
 	void Awake()
 	{
-		if(mainCamera == null)
+		if (mainCamera == null) {
 			mainCamera = Camera.main;
+		}
 	}
 
 	void Update()
 	{
+
+		if (player.pounding == true) {
+			Shake(0.3f, 0.5f);
+		}
 		if (Input.GetKeyDown(KeyCode.T))
 		{
 			Shake(0.3f, 1f);
 		}
 	}
 
-	void ShakeStart()
+	public void ShakeStart()
 	{
+		camPos = mainCamera.transform.position;
 		if (shakeAmount > 0)
 		{
-			Vector3 camPos = mainCamera.transform.position;
+			Vector3 campos = mainCamera.transform.position;
 			float shakeAmountX = Random.value * shakeAmount * 2 - shakeAmount;
 			float shakeAmountY = Random.value * shakeAmount * 2 - shakeAmount;
 
-			camPos.x += shakeAmountX;
-			camPos.y += shakeAmountY;
+			campos.x += shakeAmountX;
+			campos.y += shakeAmountY;
 
-			mainCamera.transform.position = camPos;
+			mainCamera.transform.position = campos;
 		}
 	}
 
@@ -41,7 +49,7 @@ public class CameraShake : MonoBehaviour {
 	void ShakeEnd()
 	{
 		CancelInvoke("ShakeStart");
-		mainCamera.transform.localPosition = Vector3.zero;
+		mainCamera.transform.position = camPos;
 
 	}
 
