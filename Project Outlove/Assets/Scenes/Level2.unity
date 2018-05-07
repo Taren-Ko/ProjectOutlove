@@ -981,8 +981,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 55abc6c4a77ec4a43901cc43f5cffb14, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  directionSpeed: 13
-  distance: 19
+  directionSpeed: 4.55
+  distance: 6.65
 --- !u!212 &121009577
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3283,11 +3283,41 @@ Prefab:
     - target: {fileID: 58423595420069432, guid: 6cf60c76570cdfa4a890e632752f60c6,
         type: 2}
       propertyPath: m_Radius
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 20663690511372878, guid: 6cf60c76570cdfa4a890e632752f60c6,
         type: 2}
       propertyPath: orthographic size
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 114310403348166502, guid: 6cf60c76570cdfa4a890e632752f60c6,
+        type: 2}
+      propertyPath: bottomPosition.y
+      value: -5
+      objectReference: {fileID: 0}
+    - target: {fileID: 114310403348166502, guid: 6cf60c76570cdfa4a890e632752f60c6,
+        type: 2}
+      propertyPath: rightPosition.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114310403348166502, guid: 6cf60c76570cdfa4a890e632752f60c6,
+        type: 2}
+      propertyPath: leftPosition.x
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114310403348166502, guid: 6cf60c76570cdfa4a890e632752f60c6,
+        type: 2}
+      propertyPath: collisionRadius
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114869568459070326, guid: 6cf60c76570cdfa4a890e632752f60c6,
+        type: 2}
+      propertyPath: jumpSpeed
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 114938489536559970, guid: 6cf60c76570cdfa4a890e632752f60c6,
+        type: 2}
+      propertyPath: speed
       value: 30
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -4981,8 +5011,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 55abc6c4a77ec4a43901cc43f5cffb14, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  directionSpeed: 13
-  distance: 19
+  directionSpeed: 4.55
+  distance: 6.65
 --- !u!212 &593533217
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5107,8 +5137,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 55abc6c4a77ec4a43901cc43f5cffb14, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  directionSpeed: 13
-  distance: 19
+  directionSpeed: 4.55
+  distance: 6.65
 --- !u!212 &603143340
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7815,8 +7845,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 55abc6c4a77ec4a43901cc43f5cffb14, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  directionSpeed: 13
-  distance: 19
+  directionSpeed: 4.55
+  distance: 6.65
 --- !u!212 &911721088
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -8786,8 +8816,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 55abc6c4a77ec4a43901cc43f5cffb14, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  directionSpeed: 13
-  distance: 19
+  directionSpeed: 4.55
+  distance: 6.65
 --- !u!212 &1025118427
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -15827,8 +15857,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 55abc6c4a77ec4a43901cc43f5cffb14, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  directionSpeed: 13
-  distance: 19
+  directionSpeed: 4.55
+  distance: 6.65
 --- !u!212 &1926552417
 SpriteRenderer:
   m_ObjectHideFlags: 0

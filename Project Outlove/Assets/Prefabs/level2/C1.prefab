@@ -217,7 +217,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 8
+  m_Radius: 2
 --- !u!61 &61836905706864114
 BoxCollider2D:
   m_ObjectHideFlags: 1
@@ -379,9 +379,9 @@ MonoBehaviour:
   standing: 0
   onWall: 0
   bottomPosition: {x: 0, y: -5}
-  rightPosition: {x: 5, y: 0}
-  leftPosition: {x: -5, y: 0}
-  collisionRadius: 3
+  rightPosition: {x: 1, y: 0}
+  leftPosition: {x: -1, y: 0}
+  collisionRadius: 1
   debugCollisionColor: {r: 1, g: 0, b: 0, a: 1}
 --- !u!114 &114421808548119508
 MonoBehaviour:
@@ -477,7 +477,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   inputButtons: 05000000
   dissableScripts: []
-  jumpSpeed: 155
+  jumpSpeed: 100
   clip: {fileID: 8300000, guid: acf4729eb9de845df9f9e781c06bf94b, type: 3}
 --- !u!114 &114904991435488318
 MonoBehaviour:
@@ -515,7 +515,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   inputButtons: 010000000000000004000000
   dissableScripts: []
-  speed: 50
+  speed: 30
   runMultiplier: 2
   running: 0
 --- !u!114 &114959761063109592

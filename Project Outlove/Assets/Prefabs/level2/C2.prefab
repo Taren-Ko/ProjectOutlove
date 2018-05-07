@@ -373,7 +373,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   inputButtons: 05000000
   dissableScripts: []
-  jumpSpeed: 155
+  jumpSpeed: 100
   clip: {fileID: 8300000, guid: acf4729eb9de845df9f9e781c06bf94b, type: 3}
 --- !u!114 &114149520681034256
 MonoBehaviour:
@@ -404,9 +404,9 @@ MonoBehaviour:
     m_Bits: 256
   standing: 0
   onWall: 0
-  bottomPosition: {x: 0, y: -3}
-  rightPosition: {x: 3, y: 0}
-  leftPosition: {x: -3, y: 0}
+  bottomPosition: {x: 0, y: -1}
+  rightPosition: {x: 1, y: 0}
+  leftPosition: {x: -1, y: 0}
   collisionRadius: 1
   debugCollisionColor: {r: 1, g: 0, b: 0, a: 1}
 --- !u!114 &114196489165670896
@@ -449,7 +449,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   inputButtons: 010000000000000004000000
   dissableScripts: []
-  speed: 50
+  speed: 30
   runMultiplier: 2
   running: 0
 --- !u!114 &114598180044022622
