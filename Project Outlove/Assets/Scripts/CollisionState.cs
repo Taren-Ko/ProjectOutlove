@@ -39,7 +39,7 @@ public class CollisionState : MonoBehaviour {
 		onWall = Physics2D.OverlapCircle (pos, collisionRadius, collisionLayer);
 	}
 
-	/*void OnDrawGizmos(){
+	void OnDrawGizmos(){
 		Gizmos.color = debugCollisionColor;
 
 		var positions = new Vector2[] {rightPosition, bottomPosition, leftPosition};
@@ -51,5 +51,5 @@ public class CollisionState : MonoBehaviour {
 
 			Gizmos.DrawWireSphere (pos, collisionRadius);
 		}
-	}*/
+	}
 }

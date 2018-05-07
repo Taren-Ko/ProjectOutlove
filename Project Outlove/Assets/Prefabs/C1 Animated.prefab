@@ -417,7 +417,7 @@ MonoBehaviour:
   inputButtons: 05000000
   dissableScripts: []
   jumpSpeed: 155
-  clip: {fileID: 0}
+  clip: {fileID: 8300000, guid: acf4729eb9de845df9f9e781c06bf94b, type: 3}
 --- !u!114 &114674634011489918
 MonoBehaviour:
   m_ObjectHideFlags: 1

@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class DestructiblePlatform : MonoBehaviour {
 
-	public GameObject destruct;
 	public GroundPound player;
 
 	// Use this for initialization
@@ -20,8 +19,8 @@ public class DestructiblePlatform : MonoBehaviour {
 
 	void OnTriggerEnter2D (Collider2D collision)
 	{
-		if (collision.gameObject.tag == "Player" && player.pounding == true) {
-			Destroy (destruct);
+		if (collision.gameObject.tag == "Yeti") {
+			Destroy (gameObject);
 
 
 		}

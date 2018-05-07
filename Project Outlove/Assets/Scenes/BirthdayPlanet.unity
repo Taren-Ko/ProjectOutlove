@@ -159,7 +159,7 @@ Prefab:
       objectReference: {fileID: 9100000, guid: 70f2b5d5d50cc26469c88ced585407e9, type: 2}
     - target: {fileID: 1729843172088642, guid: 48722d2af43ae1d4fb0a24b4581db8a7, type: 2}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 212027344840693848, guid: 48722d2af43ae1d4fb0a24b4581db8a7,
         type: 2}
@@ -176,6 +176,10 @@ Prefab:
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: 320285b81e931684584fd250405255ad, type: 2}
+    - target: {fileID: 1505400800732100, guid: 48722d2af43ae1d4fb0a24b4581db8a7, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 48722d2af43ae1d4fb0a24b4581db8a7, type: 2}
   m_IsPrefabParent: 0
@@ -195,7 +199,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!95 &2111457590
 Animator:
   serializedVersion: 3

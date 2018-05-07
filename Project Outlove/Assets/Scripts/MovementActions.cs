@@ -3,12 +3,12 @@ using System.Collections;
 
 public abstract class MovementActions : MonoBehaviour {
 
-	
+	public Buttons[] inputButtons;
 	public MonoBehaviour[] dissableScripts;
+
 	protected InputState inputState;
 	protected Rigidbody2D body2d;
 	protected CollisionState collisionState;
-	public Buttons[] inputButtons;
 
 	protected virtual void Awake(){
 		inputState = GetComponent<InputState> ();

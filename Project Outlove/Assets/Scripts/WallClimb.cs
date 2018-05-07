@@ -9,7 +9,7 @@ public class WallClimb : StickToWall {
 	override protected void Update () {
 		base.Update ();
 
-		if (WallTrigger) {
+		if (onWallDetected) {
 			var velY = slideVelocity;
 
 			body2d.velocity = new Vector2(body2d.velocity.x, velY);

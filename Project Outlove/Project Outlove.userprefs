@@ -4,7 +4,11 @@
     <Files>
       <File FileName="Assets\Scripts\SceneSwitchRev.cs" Line="1" Column="1" />
       <File FileName="Assets\YetiAnimation.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\InputState.cs" Line="47" Column="1" />
+      <File FileName="Assets\Scripts\PlayerControllerLevel3.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\MovingPlatformGoal.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\DisappearOnGoal.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\GroundPound.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\InputState.cs" Line="50" Column="3" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
