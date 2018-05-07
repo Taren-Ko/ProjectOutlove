@@ -1,4 +1,4 @@
-OSXStandalone
+WindowsStandalone
 SceneListBegin?
 Assets/Scenes/MainMenu.unity
 Assets/Scenes/ParentScreen.unity
@@ -9,6 +9,10 @@ Assets/Scenes/Gas Stop 1.unity
 Assets/Scenes/Conversation2.unity
 Assets/Scenes/Level2.unity
 Assets/Scenes/Level2nohelp.unity
+Assets/Scenes/Gas Stop 2.unity
+Assets/Scenes/Conversation3.unity
+Assets/Scenes/Level3.unity
+Assets/Scenes/Level3nohelp.unity
 Assets/Scenes/BirthdayPlanet.unity
 Assets/Scenes/BirthdayPlanetnoFriends.unity
 SceneListEnd?
@@ -196,5 +200,5 @@ ee4378f52d9ad8a83cb50b60e5743436 Assembly-CSharp.dll:.CameraShake
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.YetiAnimation
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.ApplicationManager
 d12fd43415d98d613956fe455dc918d5 Assembly-CSharp.dll:.EnemyPatrol
-2f95d7f9ec6ecb44b170269eb23784a0 Assembly-CSharp.dll:.DestructiblePlatform
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.DestructiblePlatform
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.ChangeColor
