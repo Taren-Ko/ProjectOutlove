@@ -1047,8 +1047,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: WELCOME FRIEND. THIS PLANET DKC-95. ME LIKE IT HERE BUT WANT TO EXPLORE.
-    TAKE ME WITH YOU, YES???
+  m_Text: WELCOME FRIEND! THIS PLANET DKC-94. I LIKE IT HERE BUT I WANT TO EXPLORE.
+    WILL YOU TAKE ME WITH YOU?
 --- !u!222 &1942873975
 CanvasRenderer:
   m_ObjectHideFlags: 0
