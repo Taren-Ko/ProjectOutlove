@@ -86,6 +86,7 @@ GameObject:
   - component: {fileID: 95888721787072862}
   - component: {fileID: 114759660302704246}
   - component: {fileID: 114211611070812704}
+  - component: {fileID: 114644517103928730}
   m_Layer: 0
   m_Name: C3
   m_TagString: Yeti
@@ -478,6 +479,19 @@ MonoBehaviour:
   dissableScripts: []
   poundSpeed: -300
   pounding: 0
+--- !u!114 &114644517103928730
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1780644475993420}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0102ed5efc35be147973e3a5b7051cc2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mainCamera: {fileID: 20148641773358160}
+  player: {fileID: 114759660302704246}
 --- !u!114 &114657081324665880
 MonoBehaviour:
   m_ObjectHideFlags: 1

@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class DestructiblePlatform : MonoBehaviour {
 
-	public GroundPound player;
+	//public GroundPound player;
 
 	// Use this for initialization
 	void Start () {
