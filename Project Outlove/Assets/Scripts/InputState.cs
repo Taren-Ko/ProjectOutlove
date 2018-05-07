@@ -21,33 +21,33 @@ public class InputState : MonoBehaviour {
 	private Rigidbody2D body2d;
 	private Dictionary<Buttons, ButtonState> buttonStates = new Dictionary<Buttons, ButtonState>();
 
-	private Animator animator;
+//	private Animator animator;
 
 	void Start()
 	{
-		animator = this.GetComponent<Animator>();
+//		animator = this.GetComponent<Animator>();
 	}
 
 	void Awake(){
 		body2d = GetComponent<Rigidbody2D> ();
 	}
 
-	void Update()
-	{
+//	void Update()
+//	{
 
-		if (Input.GetKey ("c")) {
-			animator.SetInteger ("FrogAnimationState", 1);
-		} 
-
-		else if (Input.GetKey ("up")) {
-			animator.SetInteger ("FrogAnimationState", 2);
-		}
-		else 
-		{
-			animator.SetInteger("FrogAnimationState", 0);
-		}
-		
-	}
+//		if (Input.GetKey ("c")) {
+//			animator.SetInteger ("FrogAnimationState", 1);
+//		} 
+//
+//		else if (Input.GetKey ("up")) {
+//			animator.SetInteger ("FrogAnimationState", 2);
+//		}
+//		else 
+//		{
+//			animator.SetInteger("FrogAnimationState", 0);
+//		}
+//		
+//	}
 
 	void FixedUpdate(){
 		absVelX = Mathf.Abs (body2d.velocity.x);

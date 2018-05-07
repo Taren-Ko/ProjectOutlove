@@ -85,6 +85,7 @@ GameObject:
   - component: {fileID: 114612180489158430}
   - component: {fileID: 95888721787072862}
   - component: {fileID: 114759660302704246}
+  - component: {fileID: 114149520681034256}
   m_Layer: 0
   m_Name: C2
   m_TagString: Player
@@ -374,6 +375,19 @@ MonoBehaviour:
   dissableScripts: []
   jumpSpeed: 155
   clip: {fileID: 8300000, guid: acf4729eb9de845df9f9e781c06bf94b, type: 3}
+--- !u!114 &114149520681034256
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1780644475993420}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d39ca80460987248bf06172463b2a74, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  inputButtons: 
+  dissableScripts: []
 --- !u!114 &114167255417378972
 MonoBehaviour:
   m_ObjectHideFlags: 1
