@@ -13614,7 +13614,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ebb41fc5d5104456abe7a39ee724dcc9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneToLoad: Scenes/BirthdayPlanetnoFriends
+  sceneToLoad: Scenes/Gas Stop 2
   finished: 0
 --- !u!4 &1749612474 stripped
 Transform:
